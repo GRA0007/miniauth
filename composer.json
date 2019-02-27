@@ -1,0 +1,23 @@
+{
+    "name": "gra0007/miniauth",
+    "description": "Lightweight authentication that provides a boolean value for status.",
+    "keywords": ["authentication", "lightweight", "login"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ben Grant"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=5.4"
+    },
+	"require-dev": {
+		"phpunit/phpunit": "5.2.*"
+    },
+	"autoload": {
+        "psr-4": {
+            "GRA0007\\MiniAuth\\": "src/"
+        }
+    }
+}
